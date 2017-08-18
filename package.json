@@ -1,6 +1,6 @@
 {
   "name": "points-distance",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Calculate the distance between two points",
   "main": "dist/lib/points-distance.js",
   "scripts": {
