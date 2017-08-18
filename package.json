@@ -1,0 +1,31 @@
+{
+  "name": "points-distance",
+  "version": "0.1.0",
+  "description": "Calculate the distance between two points",
+  "main": "dist/lib/points-distance.js",
+  "scripts": {
+    "build": "babel lib/points-distance.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armando1339/points-distance.git"
+  },
+  "keywords": [
+    "point",
+    "points",
+    "distance"
+  ],
+  "author": "Armando Alejandre <armando1339@gmail.com> (https://github.com/armando1339/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/armando1339/points-distance/issues"
+  },
+  "homepage": "https://github.com/armando1339/points-distance#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
